@@ -1,6 +1,6 @@
 # PHP-JS-Form
 
-An email form with CAPTCHA and checkboxes using PHP, JavaScript, and Bootstrap.
+An email form with a CAPTCHA-like verification using PHP, JavaScript, and Bootstrap
 
 Main features:
 - form in PHP, CAPTCHA in JavaScript (plain), style in Bootstrap and CSS;
