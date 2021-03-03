@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    color: rgb(27, 27, 27);
+    background-color: rgb(255, 243, 202);
+}
+#header-container,
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+#btn-container {
+    justify-content: center;
+}
+#form-container,
+#completed-container {
+    max-width: 600px;
+}
+#completed-container {
+    text-align: center;
+}
+#completed-container img {
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+}
+#completed-container h1 {
+    padding: 20px;
+}
+#floatingTextarea {
+    margin-top: 10px;
+}
+#captcha-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#captcha-container div {
+    margin: 5px 20px 0px 20px;
+}
+#terms {
+    text-decoration: underline;
+    font-weight: bold;
+}
+#terms:hover {
+    cursor: pointer;
+}
+#captcha-btn {
+    content: "";
+    min-height: 30px;
+    min-width: 30px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+.card {
+    position: absolute !important;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    margin: 10% auto;
+    padding: 3%;
+    z-index: 1;
+    height: 420px;
+    width: 420px;
+    display: none;
+}
+.card-display {
+    display: flex;
+    animation: cardShow 0.4s ease-in-out;
+}
+@keyframes cardShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#captcha-pic-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.captcha-pic {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 3px;
+    cursor: pointer;
+}
+#pic-1 {
+    background: url("images/captcha/captcha_01.png") no-repeat;
+    background-size: cover;
+}
+#pic-2 {
+    background: url("images/captcha/captcha_02.png") no-repeat;
+    background-size: cover;
+}
+#pic-3 {
+    background: url("images/captcha/captcha_03.png") no-repeat;
+    background-size: cover;
+}
+#pic-4 {
+    background: url("images/captcha/captcha_04.png") no-repeat;
+    background-size: cover;
+}
+#pic-5 {
+    background: url("images/captcha/captcha_05.png") no-repeat;
+    background-size: cover;
+}
+#pic-6 {
+    background: url("images/captcha/captcha_06.png") no-repeat;
+    background-size: cover;
+}
+.captcha-confirmed-background {
+    background: url("images/captcha/confirmed-tick.png") no-repeat;
+    background-color: none;
+    background-size: cover;
+    border-radius: 50%;
+    animation: success 0.3s ease-in-out;
+}
+
+@keyframes success {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.error-warning {
+    color: rgb(228, 1, 1);
+}
