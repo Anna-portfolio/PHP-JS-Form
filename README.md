@@ -2,12 +2,11 @@
 
 An email form with a CAPTCHA-like verification using PHP, JavaScript, and Bootstrap
 
+![form_img01](https://user-images.githubusercontent.com/75646880/109963773-12d56380-7ced-11eb-9ec0-07933aa75232.png)
 
-![form_img01](https://user-images.githubusercontent.com/75646880/109963556-d73a9980-7cec-11eb-9100-e4ea69d42f3a.png)
+![form_img02](https://user-images.githubusercontent.com/75646880/109963765-11a43680-7ced-11eb-88e8-238ca536082c.png)
 
-![form_img02](https://user-images.githubusercontent.com/75646880/109963557-d7d33000-7cec-11eb-95a6-c612856a1158.png)
-
-![form_img03](https://user-images.githubusercontent.com/75646880/109963559-d86bc680-7cec-11eb-9d21-95019b871604.png)
+![form_img03](https://user-images.githubusercontent.com/75646880/109963769-123ccd00-7ced-11eb-840b-ac9ed79e9bc7.png)
 
 
 Main features:
